@@ -127,16 +127,16 @@ Chung-hong Chan
 }
 
 /* shrink collected cards (also disables sorting/ordering/animation) */
-.earnedCards .stockitem {
-	width: 57px !important;
-	height: 85px !important;
+/* .earnedCards .stockitem { */
+/* 	width: 57px !important; */
+/* 	height: 85px !important; */
 
-	background-size: 400% 1300%;
+/* 	background-size: 400% 1300%; */
 
-	position: unset !important;
-	float: left !important;
-	margin: 0 0.3em 0.3em 0;
-}
+/* 	position: unset !important; */
+/* 	float: left !important; */
+/* 	margin: 0 0.3em 0.3em 0; */
+/* } */
 
 /* shrink placeholders for collected cards */
 .earnedCards .earnedSpace {
@@ -167,11 +167,11 @@ Chung-hong Chan
 }
 
 /* disable ordering/sorting/animation of cards on table and in yaku popup */
-#faceup_cards .stockitem, #cards_market .stockitem {
-	position: unset !important;
-	float: left !important;
-	margin: 0 0.35em 0.35em 0;
-}
+/* #faceup_cards .stockitem, #cards_market .stockitem { */
+/* 	position: unset !important; */
+/* 	float: left !important; */
+/* 	margin: 0 0.35em 0.35em 0; */
+/* } */
 
 /* make player turn more noticable */
 body.current_player_is_active #page-title {
@@ -200,9 +200,9 @@ body.current_player_is_active #page-title {
 /* } */
 
 /* move chat bar dock into corner */
-.desktop_version #chatbardock {
-	right: -195px;
-}
+/* .desktop_version #chatbardock { */
+/* 	right: -195px; */
+/* } */
 
 /* move chat bar expanded window back on screen */
 .desktop_version .chatwindowtype_table .chatwindowexpanded {
