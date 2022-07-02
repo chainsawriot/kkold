@@ -65,19 +65,19 @@ Chung-hong Chan
 }
 
 /* style discard placeholder */
-#faceup_cards_item_1000 {
-	background-image: none !important;
-	border: none !important;
-	box-shadow: none !important;
+/* #faceup_cards_item_1000 { */
+/* 	background-image: none !important; */
+/* 	border: none !important; */
+/* 	box-shadow: none !important; */
 
-	/* hide by default */
-	display: none;
-}
+/* 	/\* hide by default *\/ */
+/* 	display: none; */
+/* } */
 
 /* show discard placeholder if it's at the end of a row */
-#faceup_cards_item_1000:last-child {
-	display: block !important;
-}
+/* #faceup_cards_item_1000:last-child { */
+/* 	display: block !important; */
+/* } */
 
 /* change text colours */
 #deck_cards_counter, #month_container, .earnedSpace, .discardSpace, .timestamp {
@@ -90,10 +90,10 @@ Chung-hong Chan
 }
 
 /* resize placeholders to fit */
-.earnedSpace {
-	width: 82px;
-	height: 124px;
-}
+/* .earnedSpace { */
+/* 	width: 82px; */
+/* 	height: 124px; */
+/* } */
 
 /* style placeholders */
 .earnedSpace, .discardSpace {
@@ -103,17 +103,17 @@ Chung-hong Chan
 }
 
 /* make more cards fit horizontally to keep it to 2 rows */
-#cardsontable {
-	/* 5 cards */
-	width: 460px !important;
+/* #cardsontable { */
+/* 	/\* 5 cards *\/ */
+/* 	width: 460px !important; */
 
-	/* 6 cards */
-	/*width: 550px !important;*/
+/* 	/\* 6 cards *\/ */
+/* 	/\*width: 550px !important;*\/ */
 
-	/* show area for JS easy click */
-	background-color: rgba(255,255,255, 0.1);
-	padding: 1em 0.5em 0 1em;
-}
+/* 	/\* show area for JS easy click *\/ */
+/* 	background-color: rgba(255,255,255, 0.1); */
+/* 	padding: 1em 0.5em 0 1em; */
+/* } */
 
 /* move month to right */
 #month_container {
@@ -121,10 +121,10 @@ Chung-hong Chan
 }
 
 /* shrink collected rows */
-.earnedCards {
-	min-height: 90px !important;
-	height: 90px !important;
-}
+/* .earnedCards { */
+/* 	min-height: 90px !important; */
+/* 	height: 90px !important; */
+/* } */
 
 /* shrink collected cards (also disables sorting/ordering/animation) */
 /* .earnedCards .stockitem { */
@@ -139,32 +139,32 @@ Chung-hong Chan
 /* } */
 
 /* shrink placeholders for collected cards */
-.earnedCards .earnedSpace {
-	width: 53px !important;
-	height: 81px !important;
-	margin-right: -57px !important;
+/* .earnedCards .earnedSpace { */
+/* 	width: 53px !important; */
+/* 	height: 81px !important; */
+/* 	margin-right: -57px !important; */
 
-	font-size: 0.7em;
-	float: left !important;
-}
+/* 	font-size: 0.7em; */
+/* 	float: left !important; */
+/* } */
 
 /* insert blank line(s) above text on shrunken placeolders */
-.earnedCards .earnedSpace:before {
-	white-space: pre-wrap; 
+/* .earnedCards .earnedSpace:before { */
+/* 	white-space: pre-wrap;  */
 
-	content: '\A\A';
-}
+/* 	content: '\A\A'; */
+/* } */
 
 /* overlap rows of collected kasu */
-#player_1s .stockitem, #opponent_1s .stockitem {
-	margin-bottom: -33px !important;
-}
+/* #player_1s .stockitem, #opponent_1s .stockitem { */
+/* 	margin-bottom: -33px !important; */
+/* } */
 
 /* make collected 1s rows wrap at 5 cards wide to make 10 easier to guage */
-#player_1s, #opponent_1s {
-	width: 70%;
-	padding-right: 30%; 
-}
+/* #player_1s, #opponent_1s { */
+/* 	width: 70%; */
+/* 	padding-right: 30%;  */
+/* } */
 
 /* disable ordering/sorting/animation of cards on table and in yaku popup */
 /* #faceup_cards .stockitem, #cards_market .stockitem { */
